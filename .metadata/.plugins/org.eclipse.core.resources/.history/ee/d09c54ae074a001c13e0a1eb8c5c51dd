@@ -1,0 +1,31 @@
+package co.jp.netwisdom.Servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.sun.org.apache.xalan.internal.xsltc.compiler.Template;
+
+import co.jp.netwisdom.entity.UserinfoAndHobby;
+
+public class RegisterServlet extends HttpServlet{
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String username = req.getParameter("username");
+		String password = req.getParameter("password");
+		String sex = req.getParameter("sex");
+		String[] hobby = req.getParameterValues("hobby");
+		String major = req.getParameter("major");
+		String intro = req.getParameter("intro");
+		
+		UserinfoAndHobby uahEntity = new UserinfoAndHobby(username, password, sex, hobby, major, intro);
+		
+		
+		super.doGet(req, resp);
+	}
+	
+}

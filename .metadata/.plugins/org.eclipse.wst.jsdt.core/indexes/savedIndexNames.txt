@@ -1,0 +1,8 @@
+INDEX VERSION 1.3+D:\20211120\fristRepository\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1849020688.index
+174273522.index
+910815716.index
+111991557.index
+445693638.index
+2096604611.index
+1229453045.index

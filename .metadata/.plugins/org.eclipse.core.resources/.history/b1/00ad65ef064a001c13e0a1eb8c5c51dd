@@ -1,0 +1,32 @@
+package co.jp.netwisdom.DAO;
+
+import cn.key.dbManager.JdbcTemplate;
+
+public class UserinfoAndHobbyDAO {
+	
+	private JdbcTemplate template = new JdbcTemplate();
+	
+	String sql = "insert into userinfo value (?,?,?,?,?,?)";
+	
+	Object[] value = new value{};
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
