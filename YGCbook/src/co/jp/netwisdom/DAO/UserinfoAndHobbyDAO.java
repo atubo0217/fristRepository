@@ -12,8 +12,9 @@ public class UserinfoAndHobbyDAO {
 	public boolean InsertUserinfoAndHobby(UserinfoAndHobby uahEntity){
 		int rowU = 0;
 		int rowH = 0;
-		String sqlForUserinfo = "insert into userinfo values (?,?,?,?,?)";
-		String sqlForHobby = "insert into hobby values (?,?)";
+		String sqlForUserinfo = "insert into userinfo(username,password,sex,major,intro) "
+				+ "values (?,?,?,?,?)";
+		String sqlForHobby = "insert into hobby(username,hobby) values (?,?)";
 		Object[] objectForU ={
 				uahEntity.getUsername(),
 				uahEntity.getPassword(),
@@ -23,7 +24,6 @@ public class UserinfoAndHobbyDAO {
 				} ;
 		try {
 			rowU = template.updata(sqlForUserinfo, objectForU);
-			
 			for(String hobby : uahEntity.getHobby()){
 				Object[] objectForH ={
 						uahEntity.getUsername(),
@@ -33,6 +33,7 @@ public class UserinfoAndHobbyDAO {
 			} 
 			
 		}catch (Exception e) {
+			e.printStackTrace();
 			return false;
 		} 
 		return (rowU ==1 && rowH == uahEntity.getHobby().length);

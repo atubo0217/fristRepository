@@ -8,6 +8,8 @@ public class UserinfoAndHobby {
 	String major;
 	String intro;
 	
+	
+	
 	public UserinfoAndHobby(String username, String password, String sex, String[] hobby, String major, String intro) {
 		super();
 		this.username = username;
@@ -16,6 +18,7 @@ public class UserinfoAndHobby {
 		this.hobby = hobby;
 		this.major = major;
 		this.intro = intro;
+		
 	}
 	public String getUsername() {
 		return username;

@@ -23,7 +23,7 @@
 				<option value="2">数学</option>
 			</select><br>
 		简介<textarea name="intro">abcd</textarea><br>
-		<input type="submit" value="提交" />
+		<input type="submit" value="注册" />
 		<input type="reset" value="重置" />
 	</form>
 </body>

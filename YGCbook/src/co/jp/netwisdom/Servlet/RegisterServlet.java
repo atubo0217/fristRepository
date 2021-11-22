@@ -22,13 +22,12 @@ public class RegisterServlet extends HttpServlet{
 		String[] hobby = req.getParameterValues("hobby");
 		String major = req.getParameter("major");
 		String intro = req.getParameter("intro");
-		
 		UserinfoAndHobby uahEntity = new UserinfoAndHobby(username, password, sex, hobby, major, intro);
 		
 		UserinfoAndHobbyDAO UAHdao = new UserinfoAndHobbyDAO();
 				
 		if(UAHdao.InsertUserinfoAndHobby(uahEntity)){
-			req.getRequestDispatcher("success.jsp").forward(req, resp);
+			req.getRequestDispatcher("UserSearch.jsp").forward(req, resp);
 		}else{
 			req.getRequestDispatcher("fail.jsp").forward(req, resp);
 		}

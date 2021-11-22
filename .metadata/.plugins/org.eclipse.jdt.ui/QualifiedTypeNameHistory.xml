@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.Template"/>
+<fullyQualifiedTypeName name="co.jp.netwisdom.entity.UserinfoAndHobby"/>
+<fullyQualifiedTypeName name="co.jp.netwisdom.DAO.UserinfoAndHobbyDAO"/>
+</qualifiedTypeNameHistroy>
