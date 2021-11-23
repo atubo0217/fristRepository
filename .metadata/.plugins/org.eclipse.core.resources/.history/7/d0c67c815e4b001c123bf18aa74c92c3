@@ -1,0 +1,7 @@
+package co.jp.netwisdom.DAO;
+
+import cn.key.dbManager.JdbcTemplate;
+
+public class UseRsearchDAO {
+	private JdbcTemplate template = new JdbcTemplate();
+}

@@ -93,3 +93,13 @@
 0:0:0:0:0:0:0:1 - - [22/Nov/2021:14:54:08 +0900] "GET /YGCbook/Register.jsp HTTP/1.1" 200 1122
 0:0:0:0:0:0:0:1 - - [22/Nov/2021:14:54:08 +0900] "GET /favicon.ico HTTP/1.1" 404 973
 0:0:0:0:0:0:0:1 - - [22/Nov/2021:14:54:20 +0900] "GET /YGCbook/register?username=4444&password=44444&sex=1&hobby=2&major=1&intro=abcd HTTP/1.1" 200 286
+127.0.0.1 - - [22/Nov/2021:14:54:58 +0900] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [22/Nov/2021:14:55:06 +0900] "GET /YGCbook/Register.jsp HTTP/1.1" 200 1122
+0:0:0:0:0:0:0:1 - - [22/Nov/2021:14:55:06 +0900] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [22/Nov/2021:14:55:18 +0900] "GET /YGCbook/register?username=5555&password=55555&sex=1&hobby=1&hobby=2&major=0&intro=abcd HTTP/1.1" 200 981
+0:0:0:0:0:0:0:1 - - [22/Nov/2021:15:01:44 +0900] "GET /YGCbook/register?username=5555&password=55555&sex=1&hobby=1&hobby=2&major=0&intro=abcd HTTP/1.1" 200 981
+0:0:0:0:0:0:0:1 - - [22/Nov/2021:15:02:12 +0900] "GET /YGCbook/register?username=5555&password=55555&sex=1&hobby=1&hobby=2&major=0&intro=abcd HTTP/1.1" 200 988
+0:0:0:0:0:0:0:1 - - [22/Nov/2021:15:02:14 +0900] "GET /YGCbook/register?username=5555&password=55555&sex=1&hobby=1&hobby=2&major=0&intro=abcd HTTP/1.1" 200 988
+0:0:0:0:0:0:0:1 - - [22/Nov/2021:15:02:33 +0900] "GET /YGCbook/register?username=5555&password=55555&sex=1&hobby=1&hobby=2&major=0&intro=abcd HTTP/1.1" 200 988
+0:0:0:0:0:0:0:1 - - [22/Nov/2021:15:03:48 +0900] "GET /YGCbook/register?username=5555&password=55555&sex=1&hobby=1&hobby=2&major=0&intro=abcd HTTP/1.1" 200 988
+0:0:0:0:0:0:0:1 - - [22/Nov/2021:15:04:23 +0900] "GET /YGCbook/register?username=5555&password=55555&sex=1&hobby=1&hobby=2&major=0&intro=abcd HTTP/1.1" 200 997

@@ -1,7 +1,5 @@
 package co.jp.netwisdom.DAO;
 
-import java.sql.SQLException;
-
 import cn.key.dbManager.JdbcTemplate;
 import co.jp.netwisdom.entity.UserinfoAndHobby;
 
@@ -40,3 +38,5 @@ public class UserinfoAndHobbyDAO {
 	}
 	
 }
+	
+

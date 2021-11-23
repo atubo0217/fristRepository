@@ -3,4 +3,5 @@
 <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.Template"/>
 <fullyQualifiedTypeName name="co.jp.netwisdom.entity.UserinfoAndHobby"/>
 <fullyQualifiedTypeName name="co.jp.netwisdom.DAO.UserinfoAndHobbyDAO"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
 </qualifiedTypeNameHistroy>
